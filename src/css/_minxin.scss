@@ -1,0 +1,58 @@
+@function w($px){
+    @return  ($px/37.5 * 1rem);
+}
+@function h($px){
+  @return   ($px/37.5 * 1rem);
+}
+@function lh($px){
+  @return  ($px/37.5 * 1rem);
+}
+@function fs($px){
+  @return  ($px/37.5 * 1rem);
+}
+@function padding($top,$right,$bottom,$left){
+  @return  ($top/37.5 * 1rem);
+  @return ($bottom/37.5 * 1rem);
+  @return ($left/37.5 * 1rem);
+  @return ($right/37.5 * 1rem);
+}
+@function padding-top($px){
+   @return ($px/37.5 * 1rem);
+}
+@function padding-bottom($px){
+   @return  ($px/37.5 * 1rem);
+}
+@function padding-left($px){
+    @return ($px/37.5 * 1rem);
+}
+@function padding-right($px){
+   @return  ($px/37.5 * 1rem);
+}
+
+@function margin($top,$right,$bottom,$left){
+   @return ($top/37.5 * 1rem);
+   @return ($bottom/37.5 * 1rem);
+   @return ($left/37.5 * 1rem);
+   @return ($right/37.5 * 1rem);
+}
+@function margin-top($px){
+   @return  ($px/37.5 * 1rem);
+}
+@function margin-bottom($px){
+   @return  ($px/37.5 * 1rem);
+}
+@function margin-left($px){
+   @return  ($px/37.5 * 1rem);
+}
+@function margin-right($px){
+   @return  ($px/37.5 * 1rem);
+}
+@function br($px){
+   @return  ($px/37.5 * 1rem);
+}
+@function left($px){
+   @return  ($px/37.5 * 1rem);
+}
+@function top($px){
+   @return  ($px/37.5 * 1rem);
+}
